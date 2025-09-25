@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Loading from "./Components/Loading/Loading";
+import SoporteWebChatbot from "./Components/Soportewebchatbot/Soportewebchatbot";
 import "./index.css";
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Navbar />
         <Routes>
           <Route path="/" element={
@@ -56,6 +59,9 @@ function App() {
             </main>
           } />
         </Routes>
+        
+        {/* Componente del Chatbot */}
+        <SoporteWebChatbot />
       </div>
     </Router>
   );
