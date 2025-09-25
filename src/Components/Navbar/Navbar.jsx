@@ -33,23 +33,23 @@ const Navbar = () => {
     productos: {
       title: "Productos",
       items: [
-        { name: "Nueva Colección", path: "/productos/nueva-coleccion" },
-        { name: "Ropa de Hombre", path: "/productos/hombre" },
-        { name: "Ropa de Mujer", path: "/productos/mujer" },
-        { name: "Ropa Infantil", path: "/productos/infantil" },
-        { name: "Accesorios", path: "/productos/accesorios" },
-        { name: "Zapatos", path: "/productos/zapatos" }
+        { name: "Nuevos Productos", path: "/productos/nuevos" },
+        { name: "Computadoras PC", path: "/productos/pc" },
+        { name: "Laptops", path: "/productos/laptops" },
+        { name: "Componentes", path: "/productos/componentes" },
+        { name: "Periféricos", path: "/productos/perifericos" },
+        { name: "Gaming", path: "/productos/gaming" }
       ]
     },
     categorias: {
       title: "Categorías",
       items: [
         { name: "Ver Todas", path: "/categorias/todas" },
-        { name: "Ropa Deportiva", path: "/categorias/deportiva" },
-        { name: "Ropa Formal", path: "/categorias/formal" },
-        { name: "Ropa Casual", path: "/categorias/casual" },
-        { name: "Ropa de Verano", path: "/categorias/verano" },
-        { name: "Ropa de Invierno", path: "/categorias/invierno" }
+        { name: "Procesadores", path: "/categorias/procesadores" },
+        { name: "Tarjetas Gráficas", path: "/categorias/graficas" },
+        { name: "Memoria RAM", path: "/categorias/ram" },
+        { name: "Almacenamiento", path: "/categorias/almacenamiento" },
+        { name: "Motherboards", path: "/categorias/motherboards" }
       ]
     },
     ofertas: {
@@ -58,8 +58,8 @@ const Navbar = () => {
         { name: "Ofertas del Día", path: "/ofertas/dia" },
         { name: "Descuentos hasta 50%", path: "/ofertas/50-descuento" },
         { name: "Liquidación", path: "/ofertas/liquidacion" },
-        { name: "Pack Especiales", path: "/ofertas/packs" },
-        { name: "Outlet", path: "/ofertas/outlet" }
+        { name: "Pack Gaming", path: "/ofertas/packs-gaming" },
+        { name: "Outlet Tech", path: "/ofertas/outlet" }
       ]
     },
     contacto: {
